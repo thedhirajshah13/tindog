@@ -1,0 +1,163 @@
+body{
+    font-family: "monstserrat";
+}
+/******************************************************** header-part **********************************************/
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+
+    
+
+   
+    
+
+}
+/*********************************************************** navigation bar ********************************************/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin-left: auto;
+}
+h1{
+    font-family:"monstrerrat-black";
+    
+   font-size: 4rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* Navigation bar*/
+.navbar{
+    padding:0 0 4.5rem 0;
+    
+
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-link{
+    font-family:" monsterrat-light";
+    font-size: 20px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+/************************************************ introduction part *************************************************/
+.download-button{
+    margin: 5% 5% 5% 0;
+}
+.phone-image{
+    width: 60%;
+ 
+ 
+  
+  
+}
+/**************************************************** featureds part***************************************************** */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    
+}
+.features-box{
+    text-align: center;
+        padding: 6%;
+}
+.feature-heading{
+    font-family: "Monsterrat-bold";
+}
+p{
+    color: grey;
+}
+.icon{
+    color: #ef8672;
+    margin-bottom:16px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* *****************************************testimonial part********************************************************************** */
+#testimonials-carousel{
+    text-align: center;
+    background-color: #ef8672;
+
+}
+.testimonial-text{
+    font-family:"Monsterrat-bold" ;
+    color: #fff;
+    line-height: 3;
+}
+.dog-image{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100px;
+}
+/* ******************************************************press part********************************************************** */
+#press{
+    text-align: center;
+    
+    background-color: #ef8672;
+}
+.press-add{
+    margin: 20px 20px 50px;
+    }
+    /****************************************************pricing part*********************************************************  */
+    #pricing{
+        text-align: center;
+    }
+   .pricing-btn{
+    width: 100%;
+   } 
+   /* ****************************************************download part******************************************************** */
+   
+   #cta{
+    padding: 2.5% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+
+   }
+   .footer-btn{
+    margin:5% 2% 5% 0;
+   }
+   .footer-heading{
+    font-family: "monsterrat-black";
+    line-height: 1.5;
+    font-size: 5rem;
+   }
+   /* ******************************************************footer part*********************************************** */
+
+   
+   #footer{
+    text-align: center;
+    padding:3% 15% ;
+   }
+   .social-media-site{
+    margin: 3% 0 2%;
+   }
+   .social-site{
+    padding: 0.5%;
+    text-decoration: none;
+    color: #111;
+   }
+   .social-site:hover{
+    color: #111;
+   }
+   .tag{
+    line-height: 2;
+   }
+   /* *******************************************************Media queries***************************************************** */
+
+
+   @media (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+    
+   }
